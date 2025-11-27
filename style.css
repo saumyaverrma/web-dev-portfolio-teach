@@ -242,3 +242,54 @@ footer {
     padding: 30px 20px;
     font-size: 1rem;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Navigation */
+    .nav-content {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 20px;
+    }
+
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    /* Sections */
+    section {
+        padding: 60px 20px;
+    }
+
+    section h2 {
+        font-size: 2rem;
+        margin-bottom: 35px;
+    }
+
+    /* Projects */
+    .projects-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* Button */
+    .btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+}
